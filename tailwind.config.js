@@ -8,7 +8,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      brightness: {
+        35: '.35'
+      }
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
